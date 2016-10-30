@@ -152,7 +152,7 @@ div {
 	z-index: 4;
 	left: 729px;
 	top: 721px;
-color: #FFFFFF;
+        color: #FFFFFF;
 	background-color: #003f5e;
 }
         #apDiv16 {
@@ -162,8 +162,7 @@ color: #FFFFFF;
 	z-index: 5;
 	left: 728px;
 	top: 710px;
-        
-color: #FFFFFF;
+        color: #FFFFFF;
 	font-size: 18px;
 	font-weight: normal;
 }
@@ -197,7 +196,7 @@ color: #FFFFFF;
 	width: 39px;
 	height: 18px;
 	z-index: 9;
-	left: 523px;
+	left: 533px;
 	top: 184px;
 }
         .class body section article p {
@@ -317,14 +316,13 @@ h2{
 }
 h3{
 	font-family: Arial, Helvetica, sans-serif;
-	;
 	color: white;
 	font-size: 11px;
 	text-align: center;
 }
 header{
 	width: 1000px;
-	height: 120 px;
+	height: 0px;
 	background: rgba(255, 255, 255, 10,70);
 }
 nav{
@@ -335,16 +333,12 @@ nav{
 	color: #006680;
 }
 
-
-
-
-
 .menu li:hover ul {
         display:block;
         position: absolute;
         padding: 0;
-        margin:-16px;
-        margin-top:10px;
+        margin:0px;
+        margin-top:0px;
         width: 10px;
         float: none;
                 }
@@ -353,6 +347,7 @@ nav{
         position:absolute;
         min-width:130px;
         }
+
 ul{
         margin: auto;
         padding-top: 4px;
@@ -361,13 +356,34 @@ ul{
 li{	
         float: left;
 	list-style-type: none;
-	padding: 13px;
-	background: #003f5e;
-	margin: 3px;
-	border-radius: 7px;
-	box-shadow: inset 5px 5px 15px white;
+	padding: 0px;
 	margin-top: 5px;
+	
+	
 }
+
+nav ul li a{
+background: #003f5e;
+z-index: 11;
+text-decoration: none;
+box-shadow: 0px 0px 3px white;
+-webkit-box-shadow: 0px 0px 3px white;
+width:95px;
+height:50px;
+margin: 0px; 
+display: flex;
+
+/* alineacion vertical */
+align-items: center;
+/* alineacion horizontal */
+justify-content: center;
+}
+
+nav ul li a:hover{
+background:orange;
+
+}
+
 
 
 
@@ -420,9 +436,8 @@ p{
 	text-decoration: none;
 }
 .menu:hover{
-	color: #FF6600;
+	color: black;
 	text-decoration: none;
-	/*text-shadow: 0 0 13px white;*/
 }
 .menu:active{
 	color: #003F5E;
